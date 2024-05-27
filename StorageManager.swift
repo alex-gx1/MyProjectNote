@@ -5,7 +5,6 @@ import UIKit
 extension Notification.Name {
     static let notesDidChange = Notification.Name("notesDidChange")
 }
-
 public final class StorageManager: NSObject {
     public static let shared = StorageManager()
     private override init() {}
@@ -16,11 +15,9 @@ public final class StorageManager: NSObject {
         }
         return delegate
     }
-    
     private var context: NSManagedObjectContext {
         appDelegate.persistentContainer.viewContext
     }
-    
     public func createNote(_ title: String?, noteDescription: String?, latitudeY: Double, longitudeX: Double) {
         guard let noteEntityDescription = NSEntityDescription.entity(forEntityName: "Note", in: context) else { return
         }
@@ -32,7 +29,6 @@ public final class StorageManager: NSObject {
         appDelegate.saveContext()
         NotificationCenter.default.post(name: .notesDidChange, object: nil)
     }
-    //получение всех записей
     public func fetchNotes() -> [Note]? {
         let fetchRequest = NSFetchRequest<Note>(entityName: "Note")
         do {
@@ -42,7 +38,6 @@ public final class StorageManager: NSObject {
             return nil
         }
     }
-    //получение записи по title
     public func fetchNote(with title: String?) -> Note? {
         let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Note")
         do {

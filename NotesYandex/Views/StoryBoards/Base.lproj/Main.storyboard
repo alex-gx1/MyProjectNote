@@ -59,10 +59,10 @@
             </objects>
             <point key="canvasLocation" x="4698.4732824427483" y="-34.507042253521128"/>
         </scene>
-        <!--Add Note-->
+        <!--Add Note View Controller-->
         <scene sceneID="yeH-Ai-Xxn">
             <objects>
-                <viewController storyboardIdentifier="AddNote" useStoryboardIdentifierAsRestorationIdentifier="YES" id="VfA-My-ZYb" customClass="AddNote" customModule="NotesYandex" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AddNote" useStoryboardIdentifierAsRestorationIdentifier="YES" id="VfA-My-ZYb" customClass="AddNoteViewController" customModule="NotesYandex" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yGq-1p-RGt">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -104,7 +104,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Submit"/>
                                 <connections>
-                                    <action selector="buttonSubbmitTapped:" destination="VfA-My-ZYb" eventType="touchUpInside" id="xL3-6A-Dc9"/>
+                                    <action selector="buttonSubmitTapped:" destination="VfA-My-ZYb" eventType="touchUpInside" id="xuK-iL-dnL"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -148,10 +148,10 @@
             </objects>
             <point key="canvasLocation" x="5481.679389312977" y="-43.661971830985919"/>
         </scene>
-        <!--Your Note-->
+        <!--Your Note View Controller-->
         <scene sceneID="CAr-Hp-B2c">
             <objects>
-                <viewController storyboardIdentifier="YourNote" useStoryboardIdentifierAsRestorationIdentifier="YES" id="PM7-mX-7m5" customClass="YourNote" customModule="NotesYandex" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="YourNote" useStoryboardIdentifierAsRestorationIdentifier="YES" id="PM7-mX-7m5" customClass="YourNoteViewController" customModule="NotesYandex" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7gO-3B-1Od">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

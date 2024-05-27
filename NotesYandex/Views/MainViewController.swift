@@ -22,9 +22,12 @@ class MainViewController: UIViewController {
     
     @IBAction func buttonTapped(_ sender: UIButton) {
         let mainStoryBoard = UIStoryboard(name: "Main", bundle: nil)
-        guard let secondVC = mainStoryBoard.instantiateViewController(withIdentifier: "AddNote") as? AddNote else { return }
-        navigationController?.pushViewController(secondVC, animated: true)
+               guard let secondVC = mainStoryBoard.instantiateViewController(withIdentifier: "AddNote") as? AddNoteViewController else { return }
+               secondVC.viewModel = AddNoteViewModel()  // Здесь передаем ViewModel
+               navigationController?.pushViewController(secondVC, animated: true)
     }
+    
+    
     
     private func setupTableView() {
         tableView.dataSource = self
@@ -67,7 +70,7 @@ extension MainViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        guard let yourNoteVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "YourNote") as? YourNote else { return }
+        guard let yourNoteVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "YourNote") as? YourNoteViewController else { return }
         if let cell = tableView.cellForRow(at: indexPath) {
                 selectedTitle = cell.textLabel?.text
             }

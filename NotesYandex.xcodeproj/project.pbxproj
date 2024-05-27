@@ -12,7 +12,7 @@
 		5354D59D2BCDACEA003913F1 /* NotesYandex.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5354D59B2BCDACEA003913F1 /* NotesYandex.xcdatamodeld */; };
 		5354D5A02BCDADA7003913F1 /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5354D59E2BCDADA7003913F1 /* Note+CoreDataClass.swift */; };
 		5354D5A12BCDADA7003913F1 /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5354D59F2BCDADA7003913F1 /* Note+CoreDataProperties.swift */; };
-		5354D5A32BCDE90A003913F1 /* YourNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5354D5A22BCDE90A003913F1 /* YourNote.swift */; };
+		5354D5A32BCDE90A003913F1 /* YourNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5354D5A22BCDE90A003913F1 /* YourNoteViewController.swift */; };
 		5354D5A52BCDF5F9003913F1 /* YourNoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5354D5A42BCDF5F9003913F1 /* YourNoteViewModel.swift */; };
 		5371FB112BC8350000642F18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5371FB102BC8350000642F18 /* AppDelegate.swift */; };
 		5371FB132BC8350000642F18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5371FB122BC8350000642F18 /* SceneDelegate.swift */; };
@@ -21,7 +21,7 @@
 		5371FB1D2BC8350200642F18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5371FB1C2BC8350200642F18 /* Assets.xcassets */; };
 		5371FB202BC8350200642F18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5371FB1E2BC8350200642F18 /* LaunchScreen.storyboard */; };
 		5371FB2D2BC8461F00642F18 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5371FB2C2BC8461F00642F18 /* MainViewModel.swift */; };
-		5371FB2F2BC846E800642F18 /* AddNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5371FB2E2BC846E800642F18 /* AddNote.swift */; };
+		5371FB2F2BC846E800642F18 /* AddNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5371FB2E2BC846E800642F18 /* AddNoteViewController.swift */; };
 		A521FE18458A0E3614DCD28E /* Pods_NotesYandex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6800A26E572DB1799F2DB9 /* Pods_NotesYandex.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +31,7 @@
 		5354D59C2BCDACEA003913F1 /* NotesYandex.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NotesYandex.xcdatamodel; sourceTree = "<group>"; };
 		5354D59E2BCDADA7003913F1 /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Note+CoreDataClass.swift"; path = "NotesYandex/Note+CoreDataClass.swift"; sourceTree = "<group>"; };
 		5354D59F2BCDADA7003913F1 /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Note+CoreDataProperties.swift"; path = "NotesYandex/Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		5354D5A22BCDE90A003913F1 /* YourNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourNote.swift; sourceTree = "<group>"; };
+		5354D5A22BCDE90A003913F1 /* YourNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourNoteViewController.swift; sourceTree = "<group>"; };
 		5354D5A42BCDF5F9003913F1 /* YourNoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourNoteViewModel.swift; sourceTree = "<group>"; };
 		5371FB0D2BC8350000642F18 /* NotesYandex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotesYandex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5371FB102BC8350000642F18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		5371FB1F2BC8350200642F18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5371FB212BC8350200642F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5371FB2C2BC8461F00642F18 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
-		5371FB2E2BC846E800642F18 /* AddNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNote.swift; sourceTree = "<group>"; };
+		5371FB2E2BC846E800642F18 /* AddNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteViewController.swift; sourceTree = "<group>"; };
 		7EC53CAC08B293AA14F2442B /* Pods-NotesYandex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotesYandex.debug.xcconfig"; path = "Target Support Files/Pods-NotesYandex/Pods-NotesYandex.debug.xcconfig"; sourceTree = "<group>"; };
 		BC6800A26E572DB1799F2DB9 /* Pods_NotesYandex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotesYandex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E37F470AB7531DBFEBA0A06C /* Pods-NotesYandex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotesYandex.release.xcconfig"; path = "Target Support Files/Pods-NotesYandex/Pods-NotesYandex.release.xcconfig"; sourceTree = "<group>"; };
@@ -101,7 +101,6 @@
 		5371FB0F2BC8350000642F18 /* NotesYandex */ = {
 			isa = PBXGroup;
 			children = (
-				5371FB272BC83F5300642F18 /* Models */,
 				5371FB282BC83F5E00642F18 /* Views */,
 				5371FB292BC83F6A00642F18 /* ViewModels */,
 				5371FB2B2BC83FCE00642F18 /* Applications */,
@@ -111,19 +110,12 @@
 			path = NotesYandex;
 			sourceTree = "<group>";
 		};
-		5371FB272BC83F5300642F18 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		5371FB282BC83F5E00642F18 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				5371FB142BC8350000642F18 /* MainViewController.swift */,
-				5371FB2E2BC846E800642F18 /* AddNote.swift */,
-				5354D5A22BCDE90A003913F1 /* YourNote.swift */,
+				5371FB2E2BC846E800642F18 /* AddNoteViewController.swift */,
+				5354D5A22BCDE90A003913F1 /* YourNoteViewController.swift */,
 				5371FB2A2BC83F8400642F18 /* StoryBoards */,
 			);
 			path = Views;
@@ -284,8 +276,8 @@
 				533545202BC8510400F891AA /* AddNoteViewModel.swift in Sources */,
 				5371FB2D2BC8461F00642F18 /* MainViewModel.swift in Sources */,
 				5354D59D2BCDACEA003913F1 /* NotesYandex.xcdatamodeld in Sources */,
-				5371FB2F2BC846E800642F18 /* AddNote.swift in Sources */,
-				5354D5A32BCDE90A003913F1 /* YourNote.swift in Sources */,
+				5371FB2F2BC846E800642F18 /* AddNoteViewController.swift in Sources */,
+				5354D5A32BCDE90A003913F1 /* YourNoteViewController.swift in Sources */,
 				5335452E2BCC42B000F891AA /* StorageManager.swift in Sources */,
 				5371FB152BC8350000642F18 /* MainViewController.swift in Sources */,
 				5354D5A52BCDF5F9003913F1 /* YourNoteViewModel.swift in Sources */,
